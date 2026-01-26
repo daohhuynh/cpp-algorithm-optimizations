@@ -24,6 +24,11 @@ My collection of C++ solutions for algorithmic problems. I focus on logic change
 * **The Fix:** Added `ios_base::sync_with_stdio(false)` and `cin.tie(NULL)` to stop the buffer from flushing constantly.
 * **Result:** Runtime dropped by 50 ms.
 
+### 5. Climbing Stairs
+* **The Logic:** I realized that to reach step `n`, you can only come from `n-1` or `n-2`.
+* **The Fix:** Instead of storing the history of every step (which uses memory), I just used two variables (`oneback` and `twoback`) and swapped them as I counted up.
+* **Result:** Reduced Space Complexity to **O(1)** (Constant space), avoiding recursion overhead.
+
 ## Tools Used
 * **C++ STL:** `unordered_map`, `vector`, `sort`.
 * **Techniques:** Two Pointers, Greedy Logic, Input/Output Optimization.
