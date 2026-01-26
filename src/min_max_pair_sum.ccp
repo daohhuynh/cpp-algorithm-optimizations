@@ -5,7 +5,7 @@
 using namespace std;
 
 // Strategy: Add biggest and smallest with a two pointer.
-// Optimization: Disable C++ sync and untie streams for faster I/O (-50ms).
+// Optimization: Disable C++ sync and untie streams for faster I/O (-50 ms).
 
 class Solution {
 public:
