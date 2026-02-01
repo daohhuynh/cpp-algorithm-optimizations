@@ -3,15 +3,12 @@
 
 using namespace std;
 
-/**
- * Intuition:
- * - I win if there is 1 element. I lose if 0 is the first element.
- * - I need to have a variable that measures and replaces the best "reach".
- * - As I go, reach decreases by 1 and I keep checking if each element gives me a further reach.
- * - Once something gives me a further reach, I adopt that as the next reach.
- * - My win condition is when my cycling through gets me to the end point.
- * - If reach becomes 0 && my nums at index is also 0 then I return false.
- */
+//I win if there is 1 element. I lose if 0 is the first element.
+//I need to have a variable that measures and replaces the best "reach".
+//As I go, reach decreases by 1 and I keep checking if each element gives me a further reach.
+//Once something gives me a further reach, I adopt that as the next reach.
+//My win condition is when my cycling through gets me to the end point.
+//If reach becomes 0 && my nums at index is also 0 then I return false.
 
 class Solution {
 public:
