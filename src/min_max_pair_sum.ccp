@@ -4,10 +4,8 @@
 
 using namespace std;
 
-/**
- * - Strategy: Add biggest and smallest with a two pointer.
- * - Optimization Log: Disable C++ sync and untie streams for faster I/O (-50 ms).
- */
+//Strategy: Add biggest and smallest with a two pointer.
+//Optimization Log: Disable C++ sync and untie streams for faster I/O (-50 ms).
 
 class Solution {
 public:
