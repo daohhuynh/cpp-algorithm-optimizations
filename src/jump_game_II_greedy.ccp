@@ -3,7 +3,9 @@
 
 using namespace std;
 
-// Intuition: Greedy strategy (Implicit BFS) to determine minimum jumps in O(N) time.
+/**
+ * Intuition: Greedy strategy (Implicit BFS) to determine minimum jumps in O(N) time.
+ */
 
 class Solution {
 public:
